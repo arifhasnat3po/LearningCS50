@@ -4,7 +4,7 @@
 #include <cs50.c>
 
 int main(void){
-    string name [] = {"Asif", "Arif", "Afifa", "Abdul", "Ayesha","Farhana","Nila"};
+    string name [] = {"Test1", "Arif", "Test3", "Test4", "Test5","Test6","Test7"};
     for (int i = 0; i<7; i++)
     {
         if(name [i] =="Arif"){
