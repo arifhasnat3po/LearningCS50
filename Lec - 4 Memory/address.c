@@ -4,10 +4,11 @@
 
 int main(void)
 {
-    int n = 50;
-    int *p = &n;
-    printf("%i\n", n);
+
+    string s = "Hi!";
+    char c = s[0];
+    char *p = &c;
+    printf("%s\n",s);
     printf("%p\n", p);
-    printf("%i\n", *p);
-    
+
 }
